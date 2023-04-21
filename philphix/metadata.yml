@@ -1,0 +1,12 @@
+---
+:id: 72025145
+:submitters:
+- :name: Tasman Kuang
+  :email: taskuang@berkeley.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2021-03-29 02:27:01.307857000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2021-03-28 19:27:01.307857000 Z
+:status: processed
+:score: 70.0

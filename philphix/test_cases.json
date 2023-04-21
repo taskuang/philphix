@@ -1,0 +1,89 @@
+[
+    {
+        "name": "Sanity",
+        "description": "A test for your sanity",
+        "input": "tests/sanity/test",
+        "replace": "tests/sanity/replace",
+        "reference": "tests/sanity/reference"
+    },
+
+    {
+        "name": "Alphanumeric",
+        "description": "A test for handling Alphanumeric characters",
+        "input": "tests/alpha/test",
+        "replace": "tests/alpha/replace",
+        "reference": "tests/alpha/reference"
+    },
+
+    {
+        "name": "Capitalization",
+        "description": "A test for handling capitalized characters",
+        "input": "tests/cap/test",
+        "replace": "tests/cap/replace",
+        "reference": "tests/cap/reference"
+    },
+
+    {
+        "name": "Tab and Spaces",
+        "description": "A test for handling arbitrary tabs and spaces",
+        "input": "tests/spaces/test",
+        "replace": "tests/spaces/replace",
+        "reference": "tests/spaces/reference"
+    },
+
+    {
+        "name": "Numbers",
+        "description": "A test for handling numbers only",
+        "input": "tests/numbers/test",
+        "replace": "tests/numbers/replace",
+        "reference": "tests/numbers/reference"
+    },
+
+    {
+        "name": "No newline after dict",
+        "description": "A test for handling no newline at end of dictionary",
+        "input": "tests/dictline/test",
+        "replace": "tests/dictline/replace",
+        "reference": "tests/dictline/reference"
+    },
+
+    {
+        "name": "No newline after input",
+        "description": "A test for handling no newline at end of input",
+        "input": "tests/inputline/test",
+        "replace": "tests/inputline/replace",
+        "reference": "tests/inputline/reference"
+    },
+
+    {
+        "name": "Binary",
+        "description": "A test for handling binary input",
+        "input": "tests/binary/test",
+        "replace": "tests/binary/replace",
+        "reference": "tests/binary/reference"
+    },
+
+    {
+        "name": "Long Input",
+        "description": "A test for handling long word in input",
+        "input": "tests/longinput/test",
+        "replace": "tests/longinput/replace",
+        "reference": "tests/longinput/reference"
+    },
+
+    {
+        "name": "Long Dictionary",
+        "description": "A test for handling long word in dictionary",
+        "input": "tests/longdict/test",
+        "replace": "tests/longdict/replace",
+        "reference": "tests/longdict/reference"
+    },
+
+    {
+        "name": "Large dictionary",
+        "description": "A basic performance test",
+        "input": "tests/largedict/test",
+        "replace": "tests/largedict/replace",
+        "reference": "tests/largedict/reference"
+    }
+]
